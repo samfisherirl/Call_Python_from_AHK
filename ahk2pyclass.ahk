@@ -44,7 +44,7 @@ Class Python
       timeout /t 5
     ), % this.log
      FileMove, % this.log, % this.bat, 1
-    Sleep, 110
+    Sleep, 5010
     Run, % this.bat, %A_ScriptDir%
     sleep 110     
     FileDelete, % this.bat 
