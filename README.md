@@ -2,6 +2,8 @@
 Call python functions from ahk via command line. 
 Nothing ground breaking here, a shortcut more than anything.
 
+if this receives feedback, Ill work on one for compiled py.
+
 ahk_file(calls python function) ==> middle man py file, functions given via command line ==> py file with functions
 
 Class and Object selects ["function", "filename"]
