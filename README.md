@@ -10,19 +10,17 @@ runs command line arguments pushed to py file to run that function.
 
 github will be updated shortly with test file.
 
+              ;examples:: 
+              ;(testfile.py) 
+              PythonFunctionandFile:=["testfunction", "testfile"] 
+              ;or  
+              ;PythonFunctionandFile:=["Function_Name_In_Py", "Python_File_Name_Without_Extension"]
 
-here's your AHK file:
-          ;examples:: 
-                                          ;(testfile.py) 
-        PythonFunctionandFile:=["testfunction", "testfile"] 
-        ;or  
-        ;PythonFunctionandFile:=["Function_Name_In_Py", "Python_File_Name_Without_Extension"]
+              ;initiate class object:
+              py := new Python(PythonFunctionandFile)
 
-        ;initiate class object:
-        py := new Python(PythonFunctionandFile)
-
-        ;run python function
-        py.Run() 
+              ;run python function
+              py.Run() 
 
 ;place this anywhere or #include 
  
