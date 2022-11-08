@@ -12,22 +12,17 @@ github will be updated shortly with test file.
 
 
 here's your AHK file:
-
-    #SingleInstance Force
-    #NoEnv
-    SetWorkingDir %A_ScriptDir%
-    SetBatchLines -1 
-    ;examples:: 
+ ;examples:: 
                                           ;(testfile.py) 
-    PythonFunctionandFile:=["testfunction", "testfile"] 
-    ;or  
-    ;PythonFunctionandFile:=["Function_Name_In_Py", "Python_File_Name_Without_Extension"]
+        PythonFunctionandFile:=["testfunction", "testfile"] 
+        ;or  
+        ;PythonFunctionandFile:=["Function_Name_In_Py", "Python_File_Name_Without_Extension"]
 
-    ;initiate class object:
-    py := new Python(PythonFunctionandFile)
+        ;initiate class object:
+        py := new Python(PythonFunctionandFile)
 
-    ;run python function
-    py.Run() 
+        ;run python function
+        py.Run() 
 
 ;place this anywhere or #include 
  
