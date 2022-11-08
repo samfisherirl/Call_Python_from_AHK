@@ -12,15 +12,15 @@ github will be updated shortly with test file.
 
               ;examples:: 
               ;(testfile.py) 
-              PythonFunctionandFile:=["testfunction", "testfile"] 
+            PythonFunctionandFile:=["testfunction", "testfile"] 
               ;or  
               ;PythonFunctionandFile:=["Function_Name_In_Py", "Python_File_Name_Without_Extension"]
 
               ;initiate class object:
-              py := new Python(PythonFunctionandFile)
+            py := new Python(PythonFunctionandFile)
 
               ;run python function
-              py.Run() 
+            py.Run() 
 
 ;place this anywhere or #include 
  
